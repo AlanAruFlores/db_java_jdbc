@@ -1,6 +1,8 @@
 package org.ar.ecommerce.dao.impl;
 
+import org.ar.ecommerce.dao.IDAOClient;
 import org.ar.ecommerce.dao.IDAOManager;
+import org.ar.ecommerce.dao.IDAOOrder;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -14,6 +16,9 @@ public class DAOManager implements IDAOManager {
     private static final String PASSWORD = "pachan242";
 
     private Connection connection;
+
+    private IDAOOrder orderDAO;
+    private IDAOClient clientDAO;
 
     public DAOManager() {
         try{
@@ -29,7 +34,28 @@ public class DAOManager implements IDAOManager {
 
 
     @Override
-    public boolean closeConnection() {
+    public IDAOClient getClientDAO() {
+        if(clientDAO == null){
+            this.clientDAO = new DAOClientImpl(this.connection);
+        }
+        return clientDAO;
+    }
+
+    @Override
+    public IDAOOrder getOrderDAO() {
+        if(orderDAO == null){
+            this.orderDAO = new DAOOrderImpl(this.connection, getClientDAO());
+        }
+        return orderDAO;
+    }
+
+    @Override
+    public boolean closeConnection() throws SQLException {
+        if(connection != null && !connection.isClosed()){
+            this.connection.close();
+            return true;
+        }
+
         return false;
     }
 }

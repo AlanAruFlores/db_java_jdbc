@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac22ce15-c8b1-4a77-88ba-3e46a7802c8c" name="Changes" comment="" />
+    <list default="true" id="ac22ce15-c8b1-4a77-88ba-3e46a7802c8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/IDAOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/IDAOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/IDAOManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/IDAOManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/IDAOOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/IDAOOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/impl/DAOClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/impl/DAOClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/impl/DAOManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/impl/DAOManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/impl/DAOOrderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/dao/impl/DAOOrderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/models/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_MiniEccommerce/src/main/java/org/ar/ecommerce/models/Order.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2pvs9vukytIn8A8v8vLrBipcEHo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,8 +42,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,7 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733657740480</updated>
-      <workItem from="1733657741661" duration="952000" />
+      <workItem from="1733657741661" duration="6338000" />
+      <workItem from="1733671153583" duration="1351000" />
     </task>
     <servers />
   </component>

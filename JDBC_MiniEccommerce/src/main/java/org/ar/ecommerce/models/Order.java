@@ -29,6 +29,11 @@ public class Order {
         this.client = client;
     }
 
+    public Order(Float total, Client client) {
+        this.total = total;
+        this.client = client;
+    }
+
     public Integer getIdOrder() {
         return idOrder;
     }

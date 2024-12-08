@@ -15,13 +15,12 @@ public class Client {
         this.idClient = idClient;
     }
 
-    public Client(String name, String email, Date registerDate) {
+    public Client(String name, String email) {
         this.name = name;
         this.email = email;
-        this.registerDate = registerDate;
     }
 
-    public Client(Integer idClient, Date registerDate, String email, String name) {
+    public Client(Integer idClient, String name, String email, Date registerDate) {
         this.idClient = idClient;
         this.registerDate = registerDate;
         this.email = email;
